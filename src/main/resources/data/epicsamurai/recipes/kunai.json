@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "c:steel_ingots"
+    },
+    "N": {
+      "tag": "c:steel_nuggets"
+    },
+    "W": {
+      "item": "epicsamurai:knive_handle"
+    }
+  },
+  "pattern": [
+    "S",
+    "W",
+    "N"
+  ],
+  "result": {
+    "item": "epicsamurai:kunai"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "c:diamonds"
+    },
+    "G": {
+      "tag": "c:rubies"
+    },
+    "S": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "pattern": [
+    " X ",
+    "SGS",
+    "X X"
+  ],
+  "result": {
+    "item": "epicsamurai:diamond_samurai_helmet"
+  }
+}

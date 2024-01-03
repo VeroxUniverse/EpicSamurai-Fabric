@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "c:gold_nuggets"
+    },
+    "L": {
+      "tag": "c:leather"
+    }
+  },
+  "pattern": [
+    " X ",
+    "LSX",
+    "XL "
+  ],
+  "result": {
+    "item": "epicsamurai:katana_handle"
+  }
+}

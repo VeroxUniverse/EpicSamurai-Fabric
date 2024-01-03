@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "epicsamurai:katana"
+    },
+    "G": {
+      "tag": "c:steel_nuggets"
+    },
+    "W": {
+      "item": "epicsamurai:spear_handle"
+    }
+  },
+  "pattern": [
+    "  G",
+    " S ",
+    "W  "
+  ],
+  "result": {
+    "item": "epicsamurai:nagamaki"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "c:steel_ingots"
+    },
+    "G": {
+      "tag": "c:gold_ingots"
+    },
+    "I": {
+      "tag": "c:steel_nuggets"
+    },
+    "W": {
+      "item": "epicsamurai:katana_handle"
+    }
+  },
+  "pattern": [
+    "I I",
+    "S S",
+    "GWG"
+  ],
+  "result": {
+    "item": "epicsamurai:shuko"
+  }
+}

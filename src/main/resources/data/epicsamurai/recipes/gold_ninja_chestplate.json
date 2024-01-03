@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "c:gold_ingots"
+    },
+    "S": {
+      "item": "epicsamurai:cloth"
+    }
+  },
+  "pattern": [
+    "X X",
+    "SXS",
+    "XXX"
+  ],
+  "result": {
+    "item": "epicsamurai:gold_ninja_chestplate"
+  }
+}

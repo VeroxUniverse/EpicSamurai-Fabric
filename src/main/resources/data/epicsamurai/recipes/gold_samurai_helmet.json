@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "c:gold_ingots"
+    },
+    "G": {
+      "tag": "c:emeralds"
+    },
+    "S": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "pattern": [
+    " X ",
+    "SGS",
+    "X X"
+  ],
+  "result": {
+    "item": "epicsamurai:gold_samurai_helmet"
+  }
+}

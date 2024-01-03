@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "epicsamurai",
+  "version": "${version}",
+  "name": "EpicSamurai-Fabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/StauP/EpicSamurai-Fabric"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/epicsamurai/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.veroxuniverse.epicsamurai.client.EpicSamurai_FabricClient"
+    ],
+    "main": [
+      "net.veroxuniverse.epicsamurai.EpicSamurai_Fabric"
+    ]
+  },
+  "mixins": [
+    "epicsamurai.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "c:gold_ingots"
+    },
+    "S": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "S S",
+    "X X"
+  ],
+  "result": {
+    "item": "epicsamurai:gold_samurai_leggings"
+  }
+}

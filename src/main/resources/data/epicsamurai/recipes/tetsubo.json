@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "c:steel_ingots"
+    },
+    "G": {
+      "tag": "c:gold_ingots"
+    },
+    "W": {
+      "item": "epicsamurai:katana_handle"
+    }
+  },
+  "pattern": [
+    " SS",
+    "GSS",
+    "WG "
+  ],
+  "result": {
+    "item": "epicsamurai:tetsubo"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "c:steel_nuggets"
+    }
+  },
+  "pattern": [
+    " X ",
+    " SX",
+    "X  "
+  ],
+  "result": {
+    "item": "epicsamurai:knive_handle"
+  }
+}
