@@ -38,25 +38,25 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, BlockRegistry.RUBY_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, BlockRegistry.DEEPSLATE_RUBY_ORE.getDefaultState()));
 
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 12));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 9));
 
         List<OreFeatureConfig.Target> overworldJadeOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, BlockRegistry.JADE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, BlockRegistry.DEEPSLATE_JADE_ORE.getDefaultState()));
 
-        register(context, JADE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldJadeOres, 12));
+        register(context, JADE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldJadeOres, 9));
 
         List<OreFeatureConfig.Target> overworldOnyxOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, BlockRegistry.ONYX_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, BlockRegistry.DEEPSLATE_ONYX_ORE.getDefaultState()));
 
-        register(context, ONYX_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOnyxOres, 12));
+        register(context, ONYX_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOnyxOres, 9));
 
         List<OreFeatureConfig.Target> overworldAquamarineOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, BlockRegistry.AQUAMARINE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, BlockRegistry.DEEPSLATE_AQUAMARINE_ORE.getDefaultState()));
 
-        register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 12));
+        register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 9));
 
         List<OreFeatureConfig.Target> overworldSilvereOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, BlockRegistry.SILVER_ORE.getDefaultState()),

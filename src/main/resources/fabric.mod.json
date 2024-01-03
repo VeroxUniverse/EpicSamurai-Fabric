@@ -17,6 +17,9 @@
     ],
     "main": [
       "net.veroxuniverse.epicsamurai.EpicSamurai_Fabric"
+    ],
+    "fabric-datagen": [
+      "net.veroxuniverse.epicsamurai.EpicSamuraiDataGenerator"
     ]
   },
   "mixins": [

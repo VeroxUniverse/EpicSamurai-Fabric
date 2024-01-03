@@ -22,6 +22,9 @@ repositories {
 }
 
 loom {
+
+    // ... (Whatever exists here)
+
     runs {
         // This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
         datagen {
@@ -29,14 +32,13 @@ loom {
             name "Data Generation"
             vmArg "-Dfabric-api.datagen"
             vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
-            vmArg "-Dfabric-api.datagen.modid=epicsamurai"
+            vmArg "-Dfabric-api.datagen.modid=${modid}"
 
             runDir "build/datagen"
         }
     }
 }
 
-// Add the generated resources to the main source set
 sourceSets {
     main {
         resources {
